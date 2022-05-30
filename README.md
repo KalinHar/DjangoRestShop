@@ -3,8 +3,9 @@ RestfullApi to the "VueShop"
 
 ## Project setup
 ## Install Python.
-## Install and activate Virtualenv in project folder.
+## Install, create and activate Virtualenv in project folder.
 ```
+pip install virtualenv
 python3 -m venv venv
 venv/scripts/activate
 ```
