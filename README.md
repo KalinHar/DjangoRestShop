@@ -19,3 +19,5 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+
+### For payments checkout, register and get "sk" from stripe.com, in settings.py apply "sk" to "STRIPE_SECRET_KEY ="
