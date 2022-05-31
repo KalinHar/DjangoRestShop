@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'djshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'df0s4qklb8d5r7',
+        'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'pdgptcigersomf',
+        'PASSWORT': '928766b8b97cbf4831a08409847a60d66e436d653def50ee50ca99c3c467c8f3'
     }
 }
 
