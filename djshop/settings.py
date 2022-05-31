@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-i08x$0a$_fhi337j43633!^_+1yu*^=de!v+j-5cx3i21xpg5+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', "dj-shop-app.herokuapp.com"]
 
 # get sk_test... from: stripe.com
 STRIPE_SECRET_KEY = 'sk_test_51L4MoKJ8Rx2yNgV7IwBwr4swdbs9noMz5Jiw9GETsHC8RsmmBBY2VYxnqca0iwt1GlSbKtn4IjGDvoY7zcVGdJCa00i2BUVhNS'
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
+    "https://dj-shop-app.herokuapp.com/",
 ]
 
 MIDDLEWARE = [
