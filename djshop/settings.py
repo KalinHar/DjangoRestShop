@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "https://dj-shop-app.herokuapp.com/",
+    "http://dj-shop-app.herokuapp.com",
 ]
 
 MIDDLEWARE = [
@@ -86,7 +86,7 @@ DATABASES = {
         'HOST': 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
         'PORT': 5432,
         'USER': 'pdgptcigersomf',
-        'PASSWORT': '928766b8b97cbf4831a08409847a60d66e436d653def50ee50ca99c3c467c8f3'
+        'PASSWORD': '928766b8b97cbf4831a08409847a60d66e436d653def50ee50ca99c3c467c8f3'
     }
 }
 
