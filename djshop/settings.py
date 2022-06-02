@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 # CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
+    'https://dj-shop-app.herokuapp.com'
 ]
 
 MIDDLEWARE = [
