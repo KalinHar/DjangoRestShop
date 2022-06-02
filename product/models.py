@@ -45,7 +45,7 @@ class Product(models.Model):
     
     def get_thumbnail(self):
         if self.thumbnail:
-            return self.thumbnail.url
+            return self.thumbnail.get_absolute_url
         else:
             if self.image:
                 self.thumbnail = self.make_thumbnail(self.image)
