@@ -37,11 +37,12 @@ INSTALLED_APPS = [
     'product',
     'order',
 ]
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "http://dj-shop-app.herokuapp.com",
-]
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:8080",
+#     "http://dj-shop-app.herokuapp.com",
+# ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
