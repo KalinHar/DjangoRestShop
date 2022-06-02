@@ -51,7 +51,7 @@ class Product(models.Model):
                 self.thumbnail = self.make_thumbnail(self.image)
                 self.save()
 
-                return self.thumbnail.purl
+                return self.thumbnail.url
             else:
                 return ''
     
